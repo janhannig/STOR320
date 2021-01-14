@@ -1,0 +1,256 @@
+---
+title: '**STOR 320.1: Intro to Data Science**'
+geometry: margin=2
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+  pdf_document:
+    toc: yes
+---
+
+<style type="text/css">
+
+div {
+color: #13294B;
+}
+
+#TOC {
+  color: #4B9CD3;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+  color: #4B9CD3;
+  background-color: #13294B;
+}
+
+a:link {
+    color: #4B9CD3;
+    text-decoration: none;
+}
+
+a:visited {
+        text-decoration: none;
+color: #4B9CD3;
+
+}
+a:hover {
+color: #4B9CD3;
+background-color: #13294B;
+}
+
+.main-container {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+</style>
+
+# **About the Course**
+
+See the **[syllabus](https://hannig.cloudapps.unc.edu//STOR320/Syllabus.pdf)** for details. The course is divided into three rough parts,
+
+1. Core data science coding skills
+2. Modeling
+3. Advanced topics
+
+- Instructor: **[Jan Hannig](https://hannig.cloudapps.unc.edu)**
+
+- Instructional Assistants: 
+    - **[Taylor Petty](http://stat-or.unc.edu/people/graduate-students-department)**
+    - **[Pavlos Zoubouglou](http://stat-or.unc.edu/people/graduate-students-department)**
+    - **[Sam Booth](http://stat-or.unc.edu/people/graduate-students-department)**
+
+- Lab Sections: 
+    - 320.400 by Sam: F 10:40 AM to 11:30 AM
+    - 320.401 by Kevin: F 12:00 PM to 12:50 PM
+    - 320.402 by Pavlos: F 1:20 PM to 2:10 PM
+
+
+- Zoom Links:
+    - **[Lectures:](https://unc.zoom.us/j/94976394748)** TTH 11:30AM to 12:45PM
+    - **[320.400 by Sam](https://unc.zoom.us/j/5891075192)**: F 10:40 AM to 11:30 AM
+    - **[320.401 by Kevin](https://unc.zoom.us/j/97112351811)**: F 12:00 PM to 12:50 PM
+    - **[320.402 by Pavlos](https://unc.zoom.us/j/2903979720)**: F 1:20 PM to 2:10 PM
+    - **[Instructor Office Hours:](https://unc.zoom.us/j/97247747199)** TTH 10:00AM to 11:00AM
+    - **[Kevin Office Hours 1:](https://unc.zoom.us/j/97664652543)** F 1:00 PM to 2:00 PM
+    - **[Kevin Office Hours 2:](https://unc.zoom.us/j/95627644766)** TH 4:00 PM to 5:00 PM
+    - **[Pavlos Office Hours:](https://unc.zoom.us/j/2903979720)** M 9:00 AM to 10:00 AM; F 2:35 PM to 3:25 PM
+    - **[Sam Office Hours:](https://unc.zoom.us/j/5891075192)** W 3:00 PM to 5:00 PM
+
+
+# **Course Material**
+
+| Date | Lecture | Slides | Tutorial|
+|------|---------|--------:|--------:|
+|Aug. 11| [Welcome](https://unc.zoom.us/rec/share/vOwsPvbg0FpIRIGK8GXhdaAFPabrX6a81nRK-6Zfyx7IuAwQJSU76FfP9kASP5aM?startTime=1597157341000) | [Slides](Lecture/Lecture01/Lecture01_1Welcome.pdf)|
+|| [Data Visualization](https://unc.zoom.us/rec/share/vOwsPvbg0FpIRIGK8GXhdaAFPabrX6a81nRK-6Zfyx7IuAwQJSU76FfP9kASP5aM?startTime=1597157341000) | [Slides](Lecture/Lecture01/Lecture01_2Data_Visualization_Lecture.pdf) | [Tutorial 01](Lecture/Lecture01/Tutorial01.html)([.Rmd](https://drive.google.com/file/d/1axwnhheH0IMH3xkE_GJWSREK7gdzMLvd/view?usp=sharing))|
+|Aug. 13| [RMarkdown](https://unc.zoom.us/rec/share/1dUkD5jxqEVIS9bE2kiFd4sgMtj1X6a81XIX_fQMxUnV6uAB5wSvVfCdhoXkPvhd?startTime=1597331470000) |[Slides](Lecture/Lecture02/Lecture 02 Workflow_Lecture.pdf)|[Tutorial 02](Lecture/Lecture02/Tutorial02.html)([.Rmd](https://drive.google.com/file/d/1v5IKozWUyv6Kyt5D5vyeG52i4Ig9gHZI/view?usp=sharing)) |
+|Aug. 18| [Data Transformation I](https://unc.zoom.us/rec/share/wJV5cZzr1mpIG6_m42LZWq8PM4jAT6a8hiUa8vQPz0-Nu_75jAp7MHyJWPxg5sQC?startTime=1597762020000) |[Slides](Lecture/Lecture03/Lecture 03 Data_Transformation.pdf)| [Tutorial 03](Lecture/Lecture03/Tutorial03.html)([.Rmd](https://drive.google.com/file/d/1zPZpvvshqarahO7qJNqTiX3SCXk-azK5/view?usp=sharing))|
+|Aug. 20| [Data Transformation II](https://unc.zoom.us/rec/share/zsYuLpPt5GxJZZGR2VDCA6MlR9_Leaa8gHUdqacLykwegZQmYj4nDH69BROcjAkY?startTime=1597936757000) |[Slides](Lecture/Lecture04/Lecture 04 Data_Transformation.pdf)| [Tutorial 04](Lecture/Lecture04/Tutorial04.html)([.Rmd](https://drive.google.com/file/d/1UEt-RVM4qAI889eXr_xphXL1M3wbQeqS/view?usp=sharing))|
+|Aug. 25| No Class || |
+|Aug. 27| [Final Project Instructions](https://unc.zoom.us/rec/share/3OJ3EOHr6GFJY6P0723TBqgFAandT6a8gSUcqfVfyU3tbJ3rx0g4RXhFeUMwBHPG?startTime=1598541383000)|[Slides](Lecture/Lecture05/Lecture 05 Final_Project.pdf)| |
+|Sep. 1|[Data Import](https://unc.zoom.us/rec/share/tJ1YM5rQ0kRIBbeVzn7YWf55JbXhX6a81XMY-KELnU7MA1l2MSiCm4RVYme58QUR?startTime=1598973703000) | [Slides](Lecture/Lecture06/Lecture 06 Data_Import.pdf) | |
+|Sep. 3| [Exploratory Data Analysis](https://unc.zoom.us/rec/share/DN7B-L-hTe5JmP1TOgDrOuLt7d2D6psJLGy67cktcKqWJwvP0D3RG4QElJ8Ah1yX.NICzOtyhYSllncZt?startTime=1599146300000)|[Slides](Lecture/Lecture07/Lecture 07 Exploratory_Data_Analysis.pdf)| |
+|Sep. 8| Project Proposal Discussion || |
+|Sep. 10| [Tidy Data](https://unc.zoom.us/rec/share/uHpaTdHsCFwojA9WNbqd91aIp6NGk8VPatMBL7FTMdRY0SV7lJ0fY3uvCfJng2Z4.2XEzpg2BVBOjbv-7?startTime=1599751429000) |[Slides](Lecture/Lecture08/Lecture08 Tidy Data.pdf)|[Tutorial 05](Lecture/Lecture08/Tutorial05.html)([.Rmd](https://drive.google.com/file/d/1QJLG8MQj2ncr4wGkiZL0CHlX2x9wZemo/view?usp=sharing)) |
+|Sep. 15| [Web Scraping](https://unc.zoom.us/rec/share/R6b0CRP6phbvJ_MVDf-QLlf-A1p3UB2HJK7IDzzRtWb5psP2RZS0vBgfgjq9QpnJ.CzeizGvGCQbJTVHk?startTime=1600183143000) |[Slides](Lecture/Lecture09/Lecture 09 Web Scraping.pdf)|[Tutorial 06](Lecture/Lecture09/Tutorial06.html)([.Rmd](https://drive.google.com/file/d/1CUkQxhItI5xRg7ptdwCazG4VvaYsf0rz/view?usp=sharing)) |
+| |  ||[Tutorial 07](Lecture/Lecture09/Tutorial07.html)([.Rmd](https://drive.google.com/file/d/1JBI0EdcklUPGgkIK8MZyq60MfpsBWv6n/view?usp=sharing)) |
+|Sep. 17| [Joins](https://unc.zoom.us/rec/share/WGp8A5sZJ_um_tXN3VV1iAfsifO0zBi-CDUqRaPO1J4PrHER1MWl8IvzH4VcQUqj.gtvuQ-FrDGzkx7uc?startTime=1600356199000) |[Slides](Lecture/Lecture10/Lecture 10 Joins.pdf)| |
+|Sep. 22| [Factors](https://unc.zoom.us/rec/share/xEVA0XtRbjeXUJ6v5M4I-zXlKIDP8jY0ZIiBSc54OoroseYJLoR8h0aC8HotS0Ho.Mx9a3omXgnzFMXYw?startTime=1600788097000) |[Slides](Lecture/Lecture11/Lecture 11 Factors.pdf)| |
+|Sep. 24| [Programming I](https://unc.zoom.us/rec/share/nXMltmsGcVp-WdbFip4XqdtNSz32Vq-zDJnrBiv6w86bIM9ldinDohpwlSUUP_LJ.VWLUmkatBxL4jZGZ?startTime=1600960808000) |[Slides](Lecture/Lecture12/Lecture 12 Programming I.pdf)|[Tutorial 08](Lecture/Lecture12/Tutorial08.html)([.Rmd](https://drive.google.com/file/d/1SwFX3TSro5bghM37V-XKOP5KmsCtdxom/view?usp=sharing)) |
+|Sep. 29| [Programming II](https://unc.zoom.us/rec/share/lzA5eExcyfiXJZk8i0twNghusAnaPpScNL4pfpPSXmBgWOW5HB_sBoYsNfB_qPWt.M_RwdxsLh-JPv92I?startTime=1601393095000) |[Slides](Lecture/Lecture13/Lecture 13 Programming II.pdf)|[Tutorial 09](Lecture/Lecture12/Tutorial09.html)([.Rmd](https://drive.google.com/file/d/1-Wiq3nsDh4bOLRFlM_ZbYddpNMqzRnoy/view?usp=sharing)) |
+|Oct. 1| [Programming III](https://unc.zoom.us/rec/share/G0yUZTrnY40gkWsLkDb09tljZ3V_IsgLcKP92YifhNgDIFbsPewWle-ULXdjQNrP.IbzSSBWOUR1H2aA6?startTime=1601565809000) |[Slides](Lecture/Lecture14/Lecture 14 Programming III.pdf)| |
+|Oct. 6| [Modeling I](https://unc.zoom.us/rec/share/Wsv83RTLKqwcK6RCdMBIhtHRejARuPe3Qaz_2Xtqrmj6ycCZGryanHxR_ygkCNVb.RZ5Ul0Aa8gv6OktH?startTime=1601997881000) |[Slides](Lecture/Lecture15/Lecture 15 Modeling I.pdf)| |
+|Oct. 8| Group Work Day || |
+|Oct. 13| [Modeling II](https://unc.zoom.us/rec/share/aeD0tW-vspLtvQICwDCeCC-NRYLhIqykMWCmULvcK27Nljxo6atUw2kyIWXrecU.H-AMb7j8SyMObfoj?startTime=1602602336000) |[Slides](Lecture/Lecture16/Lecture 16 Modeling II.pdf)|[Tutorial 10](Lecture/Lecture16/Tutorial10.html)([.zip](https://drive.google.com/file/d/1IJ9DL5khN0Ge8j7IvCqU8pl9P4F2QCUY/view?usp=sharing))  |
+|Oct. 15| [Research Talk](https://unc.zoom.us/rec/share/BAr6N0XSxlx6OYaKQGUdkv6M88jTe_rfOdsdwRNoGUPPXBsuY73ceSpS7grhtld9.m12St7TqYc8A4QpK?startTime=1602775531000) |[Slides](Lecture/Lecture17/research_talk.pdf)| |
+|Oct. 20| [Modeling III](https://unc.zoom.us/rec/share/1dXUsiyQsI44TodNvV8nR4lTpuvKoOSUvYdAOVlID6rQNckNEeAX4XCYaEZWf20.B2WqQkn5NzQ-HtpQ?startTime=1603207239000) |[Slides](Lecture/Lecture18/Lecture 18 Modeling III.pdf)|[Tutorial 11](Lecture/Lecture18/Tutorial11.html)([.zip](https://drive.google.com/file/d/1WnaqmdLn6i8Yhsg0CNsth6EfmBkVpKGH/view?usp=sharing))  |
+|Oct. 22| [Modeling IV](https://unc.zoom.us/rec/share/_6Bnl9b9LlcqgignhAwyB8NQ5MNA76uILZNh2-ecW0EaZwuZX0k-WNuN_GBX1gVd.RbzlizrC2FFbvnjD?startTime=1603380025000) |[Slides](Lecture/Lecture19/Lecture 19 Modeling IV.pdf)| |
+|Oct. 27| [Modeling V](https://unc.zoom.us/rec/share/60Sr1LjiexjcgMcUtTofKidW_uXtnfsv_AWhZG7xS1KRpKTCA89_6ZbeKazPkjg.7P03Q96WXEEi2y4Z?startTime=1603812104000) |[Slides](Lecture/Lecture20/Lecture 20 Modeling V.pdf)| |
+|Oct. 29| [Modeling VI](https://unc.zoom.us/rec/share/fwsOwcT0UFG0kOw6GiP-0Ju_EHvr0xqe4HyqjtaVXFp3z3b1sXdghPzA7SJs2_xq.6FnKEOdZP6BUOwe4?startTime=1603984928000) |[Slides](Lecture/Lecture21/Lecture 21 Modeling VI.pdf)| [Tutorial 12](Lecture/Lecture21/Tutorial12.html)([.Rmd](https://drive.google.com/file/d/1JJGFoeMz8zUfEdtvCaVF4cyL8Cg5g1fE/view?usp=sharing)) |
+|| [Modeling VI](https://unc.zoom.us/rec/share/fwsOwcT0UFG0kOw6GiP-0Ju_EHvr0xqe4HyqjtaVXFp3z3b1sXdghPzA7SJs2_xq.6FnKEOdZP6BUOwe4?startTime=1603987509000) || |
+|Nov. 3| [Modeling VII](https://unc.zoom.us/rec/share/omKabKbanS0S6ShBU2LNKO7Rj3R9qgZiSmXq1ciA_PiJdl0pW-wJXzvqBuFVZWzS.G78wArpPQhNgDdy7?startTime=1604420629000) |[Slides](Lecture/Lecture22/Lecture 22 Modeling VII.pdf)|[Tutorial 13](Lecture/Lecture22/Tutorial13.html)([.Rmd](https://drive.google.com/file/d/1T_XHZ22cRHLw7jMbkosSfIcyXtEE7WYE/view?usp=sharing)) |
+|Nov. 5| [Data Ethics](https://unc.zoom.us/rec/share/XvNjdVATczYAbKTdf0fPjXPYrldTYNomVmtJzZ0-Peh4myipMSD9VQqAO31gq5Ta.h_dEHAmgVno0Vj0V?startTime=1604593379000) |[Slides](Lecture/Lecture23/Lecture23 Data Ethics.pdf)| |
+|Nov. 10| [R Shiny](https://unc.zoom.us/rec/share/7G4ViUl_qIZmz2Hk0z9_pU4H9j6Z66O2VnlXj9FMrfDjZtpQU3y8e4wyAVZ-NG0W.aqoT4dSAnoSAYVCo?startTime=1605025123000) |[Slides](Lecture/Lecture24/Lecture 24 R Shiny.pdf)| [Tutorial 14](https://liyao880.shinyapps.io/gapminder/)([.zip](https://drive.google.com/file/d/1b_kZNqUUHp2apawDdjyYV6R5VB-xGKLJ/view?usp=sharing))|
+|Nov. 12| Presentation|| |
+|Nov. 17| Presentation|| |
+
+# **Homework Tracker**
+
+All homework assignments are to be submitted via **[Sakai](https://sakai.unc.edu/welcome/)**. 
+
+| Date assigned | Instructions | Solutions| Due Date (Time) |
+|----------|:--------:|:-------------:|----------------:|
+| August 11  | [HW1](Homework/HW-1.html)([.Rmd](https://drive.google.com/file/d/1p-UnZxiRkQ1TTsnHkJFREnM0LJeD5M_y/view?usp=sharing)) |[HW1](Homework/HW1_Solution.html) |Auguts 16 (11:59 PM) |
+| August 18  | [HW2](Homework/HW-2.html)([.Rmd](https://drive.google.com/file/d/1_O9Svs7wiT-hone3DLM5np4GOW1rjig7/view?usp=sharing)) |[HW2](Homework/HW2_Solution.html)  |Auguts 24 (11:59 PM) |
+| August 20  | [A1](Homework/Analysis 1/Analysis-1.html)([.zip](https://drive.google.com/file/d/1jJ7I3qxQv_A85la9G4h3BnJjqOhdCiQJ/view?usp=sharing)) |[A1](Homework/Analysis 1/Analysis-1_Sol.html) |September 3 (11:59 PM) |
+| September 3  | [HW3](Homework/HW-3.html)([.Rmd](https://drive.google.com/file/d/1lGIPrcNa5_oGp0pbeok7L0PnrJo7D_CR/view?usp=sharing)) | [HW3](Homework/HW3_Solution.html)|September 10 (11:59 PM) |
+| September 10  | [HW4](Homework/HW-4.html)([.Rmd](https://drive.google.com/file/d/11V5ZITSSnGJ0ofT1ohQQwItNJ49VLBD8/view?usp=sharing)) | [HW4](Homework/HW4_Solution.html)|September 17 (11:59 PM) |
+| September 17  | [A2](Homework/Analysis 2/Analysis_2.html)([.zip](https://drive.google.com/file/d/1bjlQgXrZa71XKHpa04tXgYFE53YpRKBA/view?usp=sharing)) |[A2](Homework/Analysis 2/Analysis-2_sol.html) |October 1 (11:59 PM) |
+| October 1  | [HW5](Homework/HW-5.html)([.Rmd](https://drive.google.com/file/d/1fFlz2exJIRaGU-9VB0cQPw36nACGoD_T/view?usp=sharing)) |[HW5](Homework/HW5_Solution.html) |October 8 (11:59 PM) |
+| October 8  | [A3](Homework/Analysis 3/Analysis-3.html)([.zip](https://drive.google.com/file/d/1b3yIg8erBn0FAqaCbuHCDP3kqfF8EATl/view?usp=sharing)) | [A3](Homework/Analysis 3/Analysis-3_sol.html)|October 22 (11:59 PM) |
+| October 22  | [HW6](Homework/HW-6.html)([.Rmd](https://drive.google.com/file/d/1AbXKFvVMnLslmsIL890kMg1vN2VtnHpd/view?usp=sharing)) | |October 29 (11:59 PM) |
+| October 29  | [HW7](Homework/HW-7.html)([.Rmd](https://drive.google.com/file/d/1U24T7L5jfmKObZi1UDE4IIxNYimfIOAh/view?usp=sharing)) | |November 5 (11:59 PM) |
+| November 5  | [A4](Homework/Analysis 4/Analysis-4.html)([.zip](https://drive.google.com/file/d/1EnTJxsNrdXdVIeVB4U_4b8a77nY0jTv3/view?usp=sharing)) | |November 13 (11:59 PM) |
+|          |        |     |           |
+
+# **Final Project Details**
+
+For the final project, each section of STOR 320 will be divided (ideally) into research groups of size 5. To ensure fairness, students will be assigned randomly based on the `sample` function in **R**. 
+
+## Research Group Assignments
+
+To find your research group, see the **[spreadsheet](https://docs.google.com/spreadsheets/d/13XDP45oaTusjn1YpRV6K8nbYUmd81v32nLp-cB3xMWQ/edit?usp=sharing)** sponsored by Google.
+
+## Four Roles
+
+Although everyone is responsible for the entire project, each member of the group will be assigned a specific role for accountability and consistency. These four specific roles are described as follows:
+
+- **The Creator:** Meet with Instructor to Propose Your Group's Research Idea, Lead Designer in Slides
+
+- **The Interpreter:** Schedule and Meet with Instructor or Instructional Assistant to Share Findings from Exploratory Analysis, Evaluate Practice Presentation
+
+- **The Orator(s):** Give a Captivating 5-7 Minute Slideshow Presentation During the Last Two Lectures
+
+- **The Deliverer:** Deliver Your Group from Evil by Editing and Submitting the Exploratory Analysis and Final Report via Sakai Before the Deadline
+
+## Four Parts Including Point Values
+
+This final project will be divided into four parts worth a total of 100 points. Each part will have a clear rubric as non-subjective as possible. The parts along with total point values are found below:
+
+* **[P1: Project Proposal](Final Project/Project-Proposal.html)** *(10 Points)*
+    + [Template](Final Project/Project-Proposal-Template.html)([.Rmd](Final Project/Project_Proposal_Template.Rmd))
+    + [Data World](https://data.world/datasets/download)
+    + [US Government Data](https://www.data.gov/)
+    + [Kaggle](https://www.kaggle.com/)
+    + [Free Data Info I](https://www.forbes.com/sites/bernardmarr/2016/02/12/big-data-35-brilliant-and-free-data-sources-for-2016/#63f06f60b54d)
+    + [Free Data Info II](https://r-dir.com/reference/datasets.html)
+
+
+* **[P2: Exploratory Data Analysis](Final Project/Exploratory-Data-Analysis.html)** *(20 Points)*
+    + [Template](Final Project/EDA-Template.html) ([.Rmd](Final Project/EDA_Template.rmd))
+    
+* **[P3: Final Written Paper](Final Project/Final-Paper.html)** *(40 Points)*
+    + [Template](Final Project/Final-Paper-Template.html)([.Rmd](Final Project/Final_Report_Template.rmd))
+    + [Group Scoring](https://forms.gle/uzL4V1Auvx3dcAoL6)
+    
+* **[P4: Final Presentation](Final Project/Final-Presentation.html)** *(30 Points)*
+
+    
+## Due Dates of Individual Parts
+
+| Part | Description |Method of Submission| Due Date (Time) |
+|------|-------------|-------------------|----------------:|
+| P1  | Project Proposal | Sakai | Sep 7 (11:59PM)|
+|   | Proposal Meeting | Zoom | Sep 8 (10:00AM-12:45PM)|
+| P2  | Exploratory Data Analysis | Sakai | Oct 9 (11:59PM)|
+|   | EDA Meeting | Zoom | Oct 16 |
+| P3  | Final Report|Sakai|Nov 17 (11:59PM)|
+| P4  | Presentation Slides |Sakai| Nov 11 (11:59PM)|
+|   | Final Presentation|Class| Nov 12 or Nov 17 (11:15AM-12:45PM)|
+||||
+
+## Above Average Final Projects from Previous Courses
+
+- **[Pokemon](Final Project/SP2019_EX1.html)**
+- **[Seattle Housing](Final Project/SP2019_EX2.html)**
+- **[Missing Migrants](Final Project/SU2019_EX1.html)**
+- **[Youtube](Final Project/FA2019_EX1.html)**
+- **[CDC](Final Project/FA2019_EX2.html)**
+
+# **Acknowledgements**
+
+Thanks to Dr. Mario and Dr. Characiejus for sharing their course materials. 
+
+# **Reading**
+
+- **[R for Data Science](https://drive.google.com/file/d/1Wca-b3m6CTbBQqO7tUEh_CdD3xVgjYVb/view?usp=sharing)** (R4DS)
+
+- **[R Programming for Data Science](https://drive.google.com/file/d/1XVF5v4MTBhIp_dq9MzTI0TtPfVrF6eaZ/view?usp=sharing)** (RP4DS)
+
+- **[Text Mining with R](https://www.tidytextmining.com/)** (TMwR)
+
+- **[The Art of R Programming](https://drive.google.com/file/d/1gR7Yr9-pIZ-f315bZCXfDj9yPWaZDflD/view?usp=sharing)** (AoRP)
+
+- **[A First Course in Statistical Programming with R](https://drive.google.com/file/d/1NBadpF5MLWI3AFsyWo3nbpQnL8sWeZdT/view?usp=sharing)** (FCSPR)
+
+- **[ModernDive](https://moderndive.com/index.html)** (MD)
+
+- **[An Introduction to Statistical Learning](https://drive.google.com/file/d/1jKxVWG89KvWr_-70sOeEeLK4CUB09sRu/view?usp=sharing)** (ISLR)
+
+
+# **Additional resources**
+
+- **[Installing R](https://cran.r-project.org/)**
+
+- **[Installing R Studio](https://www.rstudio.com/products/rstudio/#Desktop)**
+
+- **[Additional Necessary Tools for Mac Users](https://mac.r-project.org/tools/)**
+
+- **[Instructions for Accessing R Studio on the UNC Server](https://drive.google.com/file/d/1ATZO-wpuqzHbXVnJqm7wXpt-yfMbo2Jy/view?usp=sharing)**
+
+- **[Rmarkdown Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)**
+
+- **[ggplot2 Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)**
+
+- **[Color Options](https://paulvanderlaken.files.wordpress.com/2017/08/ggplot2-color-colours-names-cheatsheet.png?w=559&amp;h=1024)**
+
+- **[Data Wrangling Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)**
+
+- **[R Shiny Cheat Sheet](https://shiny.rstudio.com/images/shiny-cheatsheet.pdf)**
+
+- **[R Strings Cheat Sheet](https://evoldyn.gitlab.io/evomics-2018/ref-sheets/R_strings.pdf)**
+
+This page was last updated on `r Sys.time()` Eastern Time.
