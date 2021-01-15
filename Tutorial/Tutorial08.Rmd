@@ -1,0 +1,263 @@
+---
+title: "STOR 320 Tutorial on Programming 1"
+author: ""
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,warning=F)
+options(scipen=999)
+library(tidyverse)    #Essential Functions
+library(Ecdat)        #Contains Economic Datasets
+```
+
+# Introduction
+
+In this tutorial, we will try to understand some fundamental control structures used in statistical programming. In the beginning, we will separately analyze different control structures. 
+
+# Part 1: *If-Else* Statements
+General Construction:
+
+- `if`:
+```{r, eval=F}
+if (CONDITION) {
+	ACTION
+}
+```
+
+- `if else`:
+```{r, eval=F}
+if (CONDITION) {
+	ACTION 1
+} else {
+	ACTION 2
+}
+```
+
+- `ifelse()`:
+
+```{r, eval=F}
+ifelse(CONDITION,ACTION1,ACTION2)
+```
+
+## Chunk 1: Illustration of *If*
+```{r,eval=F}
+x = 3
+if(x > 0){
+  print(log(x))
+}
+
+x = -3
+if(x > 0){
+  print(log(x))
+}
+```
+
+
+## Chunk 2: Illustration of *If-Else*
+```{r,eval=F}
+x = 3
+if(x > 0){
+  print(log(x))
+} else{
+  message("Unable to Take Logarithm")
+}
+
+x = -3
+if(x > 0){
+  print(log(x))
+} else {
+  message("Unable to Take Logarithm")
+}
+```
+
+### Excercise 1
+Write code that takes numbers `a` and `b` as input and prints 'a is greater than b' if `a>b`, otherwise prints 'a is not greater than b'.
+
+```{r}
+a = 10
+b = 8
+# write code here
+```
+
+## Chunk 3: Potential Problem of *If-Else* Statements
+```{r,eval=F}
+x = BLANK
+if(x > 0){
+  print(log(x))
+}
+
+if(x > 0){
+  print(log(x))
+} else{
+  message("Unable to Take Logarithm")
+}
+```
+
+
+## Chunk 4: Fixing Potential Problem in Chunk 3
+```{r,eval=F}
+x=BLANK
+if(CONDITION){
+  if(x > 0){
+    print(log(x))
+  } else{
+    message("Unable to Take Logarithm")
+  }
+} else{
+  message("Please Input Numbers")
+}
+```
+
+### Excercise 2
+Redo Excercise 1 but check the data types before doing the comparison. Hint: `&&` (and) and `||` (or) can be used to combine multiple logical expressions. Please don't use `&` and `|` in an `if` statement: these are vectorized operations.
+```{r}
+a = '10'
+b = 8
+#
+```
+
+## Chunk 5: Vectorized Version with `ifelse()`
+```{r,eval=F}
+x=c(-1,3,200)
+print(log(x))
+
+y1 =  if(x > 0){
+        log(x)
+      } else{
+        NA
+      }
+print(y1)
+```
+
+```{r, eval=F}
+y2 = ifelse(x>0,log(x),NA)
+print(y2)
+```
+
+## Chunk 6: Nested `ifelse()` Statements
+```{r,eval=F}
+x=rnorm(1000,mean=0,sd=1)
+y=ifelse(abs(x)<1,"Within 1 SD",ifelse(abs(x)>2,"Far Far Away","Between 1 and 2 SD"))
+y.fct=factor(y,levels=c("Within 1 SD","Between 1 and 2 SD","Far Far Away"))
+ggplot() +
+  geom_bar(aes(x=y.fct),fill="lightskyblue1") +
+  theme_minimal()
+```
+
+### Excercise 3
+Please use `ifelse()` function to create a new column `WageLevel` with `lwage` column of the `Wages` dataset from `Ecdat`. 
+
+- If the `lwage` is greater than $7.0$, the corresponding value in the final vector is `High Wage`. 
+- If `lwage` is lower than $6.4$, the value is `Low Wage`. 
+- For all the other cases, the values are `Normal`.
+
+```{r}
+#
+```
+
+# Part 2: Loops
+
+## Chunk 1: Checking Geometric Series Proof with *for* loop
+Geometric Series:
+$a, ar, ar^2, ar^3,...$
+
+Formula of Sum:
+$\sum_{k=0}^\infty ar^k=\frac{a}{1-r}$, for $|r|<1$.
+
+```{r,eval = F}
+a=BLANK #Any Number
+r=BLANK #Any Number Between -1 and 1: abs(r)<1
+
+theoretical.limit=a/(1-r)
+
+START=a
+
+FINISH.1 = START + a*r^1
+
+FINISH.2 = FINISH.1 + a*r^2
+
+FINISH.3 = FINISH.2 + a*r^3
+
+FINISH.10 = a 
+for(k in 1:10){
+  FINISH.10=FINISH.10+a*r^k
+}
+
+FINISH.100 = a 
+for(k in 1:100){
+  FINISH.100=FINISH.100+a*r^k
+}
+
+DATA = tibble(k=c(1,2,3,10,100,"Infinity"),
+            SUMMATION=c(FINISH.1,FINISH.2,FINISH.3,
+                        FINISH.10,FINISH.100,
+                        theoretical.limit))
+print(DATA)
+
+ABSOLUTE.ERROR = abs(FINISH.100-theoretical.limit)
+print(ABSOLUTE.ERROR)
+```
+
+### Excercise 4
+```{r}
+set.seed(4)
+u = rnorm(100)
+```
+
+Use `for` loop to calculate sum of the squares of the first 10 elements of vector `u`. Hint: `^` (Exponents), `3^2=9`
+```{r}
+#
+```
+
+Use `for` loop and `if` statement to calculate the sum of squares of the elements with even indices of vector `u`. Hint: `%%` gives the remainder of division.
+```{r}
+#
+```
+
+## Chunk 2: Checking Geometric Series Proof with *while* loop
+```{r,eval=F}
+a=BLANK
+r=BLANK
+
+FINISH=a
+k=0
+while(abs(FINISH-a/(1-r)) > 1e-10) {
+  k=k+1
+  FINISH = FINISH + a*r^k
+  #if(k>100) break
+}
+print(c(k,FINISH))
+```
+
+## Chunk 3: Saving Steps in Geometric Series for Figure
+```{r,eval=F}
+a=10
+r=-0.75
+theoretical.limit=a/(1-r)
+
+K=10 #How Many Steps Do You Want to Save?
+
+summation=rep(NA,(K+1))
+summation[1]=a
+for (k in 1:K) {
+  summation[k+1]=summation[k] + a*r^k
+}
+
+ggplot() +
+  geom_line(aes(x=1:(K+1),y=summation)) +
+  geom_hline(yintercept=theoretical.limit,
+             linetype="dashed")
+```
+
+### Excercise 5
+Write `for` loops to generate 100 random samples from normal distributions with means of 0 to 99 and save the random samples to a vector `a`.
+
+- The `k`th component of `a` is generated from $N(k-1,1)$.
+- Hint: Function for generating random samples from normal distribution `rnorm`.
+
+```{r}
+set.seed(100)
+#
+```

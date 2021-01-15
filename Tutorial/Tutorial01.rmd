@@ -1,9 +1,8 @@
 ---
 title: "STOR 320 Tutorial on Data Visualization"
-author: ''
+author: ""
 date: "`r format(Sys.time(), '%B %d, %Y')`"
-output:
-  pdf_document: default
+output: html_document
 ---
 
 ```{r , include=FALSE}
@@ -18,7 +17,7 @@ This is the default R Markdown document. Markdown is a simple formatting syntax 
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-For **our** class we will always, **Knit to PDF**!!!
+For **our** class we will always, **Knit to HTML**!!!
 
 For more assistance with RMarkdown, see Chapter 21 in *R for Data Science* and the RMarkdown cheat sheet at <https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf>, which link is also found on the [course website](https://supermariogiacomazzo.github.io/STOR320_WEBSITE/).
 

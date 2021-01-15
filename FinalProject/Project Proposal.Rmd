@@ -1,0 +1,52 @@
+---
+title: '**Project Proposal**'
+geometry: margin=2
+output:
+  html_document:
+    theme: cosmo
+    toc: yes
+    toc_float: yes
+  pdf_document:
+    toc: yes
+---
+
+<style type="text/css">
+.main-container {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+# **Purpose**
+
+The purpose of the project proposal is to demonstrate your ability to find relevant and interesting data and to propose many thoughtful and creative questions about that data. This is the first stage in your final project, and the data you select will be heavily explored for the remainder of the project. Work as a team to find data that intrigues the entire team and develop questions that are valuable for exploration.
+
+# **Requirements**
+All members of the group should be involved in the selection of the data. The data should have at least 5 variables that are not identifiers and will be studied in depth. Out of all the variables, at least 2 should be categorical. If your data only contains numeric variables, your group should decide on how to treat at least two of the variables as categorical. You are able to use multiple datasets in your project, but these will need to be merged at some point. To ensure future parts of the final project go smoothly, I recommend finding a dataset that contains more than 10 variables. To ensure your group is free of plagiarism, I recommend selecting datasets that are not attached to many online analyses. 
+
+Each member of the group is required to design at least two initial questions. These questions can be very general but should not be trivial. I recommend discussing the data as a group, design questions together, and then delegate the questions for future use. In later project parts, your group will be required to investigate these questions and then devise new follow-up questions for future analysis. Think generally about these initial questions so there is room for growth. Choose questions that have not been analyzed online for the data you have selected.
+
+A template for the project proposal is provided on the course website. In this template, I need to see three key things.
+
+- Roles for each of the group members
+- Hyperlink to the online source of the data
+- Ten questions typed out in the form of a question
+
+The Deliverer is responsible for compiling all the information into the RMarkdown template provided on the course website. This document should be carefully proofread and submitted as an HTML file via Sakai by the due date. A minimum 2 point penalty will be given, if this document is submitted late. This penalty applies to your entire group.
+
+The Creator should schedule a 5 minute meeting with the instructor on **September 8** between **10:00AM** and **12:45PM**. To reserve your 5 minute time slot, email your instructor with a specific 5 minute interval. Time slots will be prioritized according to email and posted on a google spreadsheet linked on the course website.
+
+In this meeting, the Creator should come prepared with the dataset downloaded and ready to display on a laptop. The Creator will tell the Instructor where their group found the data and a summary about the variables contained in the data. The Creator should mention how many variables are of interest for future analyses, which of the variables are numerical,and which of the variables are categorical or will be treated as categorical. We will go through your initial questions to detect any problems that may arise.
+
+# **Rubric**
+
+|Requirement|Points|
+|-------|------:|
+|Source of Data Given|1 Point|
+|Data has 5 Variables with 2 Categorical|2 Points|
+|Effective Communcation of Data Content|3 Points|
+|At Least 2 Questions Per Group Member|3 Points|
+|Roles of Other Members Assigned|1 Point|
+|**Total**|**10 Points**|
+|||
