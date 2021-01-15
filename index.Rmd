@@ -97,7 +97,7 @@ See the **[syllabus](https://hannig.cloudapps.unc.edu//STOR320/Syllabus.pdf)** f
 |       | Data Visualization | [Slides](Lecture/Lecture01_2Data_Visualization_Lecture.pdf) | [Tutorial 01](Tutorial/Tutorial01.Rmd)|
 |Jan. 21| RMarkdown | | [Tutorial 02](Tutorial/Tutorial02.Rmd) |
 |Jan 26| Data Transformation I| | [Tutorial 03](Tutorial/Tutorial03.Rmd])|
-|Jan 28| Data Transformation II | | [Tutorial 04](Tutorial/Tutorial04.Rmd)|
+|Jan 28| Data Transformation II | | [Tutorial 04](Tutorial/Tutorial04.zip)|
 |Feb 2| Data Transformation III | | |
 |Feb 4| Final Project Instructions| | |
 |Feb 9| Data Import | | |
@@ -132,17 +132,17 @@ All homework assignments are to be submitted via **[Gradescope](https://sakai.un
 
 | Date assigned | Instructions | Solutions| Due Date (Time) |
 |----------|:--------:|:-------------:|----------------:|
-| Jan 21  | [HW1](Homework/HW-1.Rmd) | | Jan 28 |
-| Jan 28  | [HW2](Homework/HW-2.Rmd) | | Feb 4 |
-| Feb 4  | [A1](Homework/Analysis 1/Analysis-1.zip) | | Feb 18 |
-| Feb 18  | [HW3](Homework/HW-3.Rmd) | |Feb 25 |
-| Feb 25  | [HW4](Homework/HW-4.Rmd) | | Mar 4 |
-| Mar 4  | [A2](Homework/Analysis 2/Analysis_2.zip) | | Mar 18 |
-| Mar 18  | [HW5](Homework/HW-5.Rmd) | | Mar 25 |
-| Mar 25 | [A3](Homework/Analysis 3/Analysis-3.zip)| | Apr 8 |
-| Apr 9  | [HW6](Homework/HW-6.Rmd) | | Apr 15 |
-| Apr 15  | [HW7](Homework/HW-7.Rmd) | |Apr 22 |
-| Apr 22  | [A4](Homework/Analysis 4/Analysis-4.zip) | | May 4|
+| Jan 21  | [HW1](Homework/HW-1.rmd) | | Jan 28 |
+| Jan 28  | [HW2](Homework/HW-2.rmd) | | Feb 4 |
+| Feb 4  | [A1](Homework/Analysis-1.zip) | | Feb 18 |
+| Feb 18  | [HW3](Homework/HW-3.rmd) | |Feb 25 |
+| Feb 25  | [HW4](Homework/HW-4.rmd) | | Mar 4 |
+| Mar 4  | [A2](Homework/Analysis_2.zip) | | Mar 18 |
+| Mar 18  | [HW5](Homework/HW-5.rmd) | | Mar 25 |
+| Mar 25 | [A3](Homework/Analysis-3.zip)| | Apr 8 |
+| Apr 9  | [HW6](Homework/HW-6.rmd) | | Apr 15 |
+| Apr 15  | [HW7](Homework/HW-7.rmd) | |Apr 22 |
+| Apr 22  | [A4](Homework/Analysis-4.zip) | | May 4|
 
 # **Final Project Details**
 
