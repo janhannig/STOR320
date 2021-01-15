@@ -73,29 +73,28 @@ See the **[syllabus](https://hannig.cloudapps.unc.edu//STOR320/Syllabus.pdf)** f
     - **[Sam Booth](http://stat-or.unc.edu/people/graduate-students-department)**
 
 - Lab Sections: 
-    - 320.400 by Sam: F 10:40 AM to 11:30 AM
-    - 320.401 by Kevin: F 12:00 PM to 12:50 PM
-    - 320.402 by Pavlos: F 1:20 PM to 2:10 PM
+    - 320.400 by Taylor: W 5:45 PM to 6:35 PM
+    - 320.401 by Pavlos: W 4:40 PM to 5:30 PM
+    - 320.402 by Sam:    F 4:40 PM to 5:30 PM
 
 
 - Zoom Links:
-    - **[Lectures:](https://unc.zoom.us/j/94976394748)** TTH 11:30AM to 12:45PM
-    - **[320.400 by Sam](https://unc.zoom.us/j/5891075192)**: F 10:40 AM to 11:30 AM
-    - **[320.401 by Kevin](https://unc.zoom.us/j/97112351811)**: F 12:00 PM to 12:50 PM
-    - **[320.402 by Pavlos](https://unc.zoom.us/j/2903979720)**: F 1:20 PM to 2:10 PM
-    - **[Instructor Office Hours:](https://unc.zoom.us/j/97247747199)** TTH 10:00AM to 11:00AM
-    - **[Kevin Office Hours 1:](https://unc.zoom.us/j/97664652543)** F 1:00 PM to 2:00 PM
-    - **[Kevin Office Hours 2:](https://unc.zoom.us/j/95627644766)** TH 4:00 PM to 5:00 PM
-    - **[Pavlos Office Hours:](https://unc.zoom.us/j/2903979720)** M 9:00 AM to 10:00 AM; F 2:35 PM to 3:25 PM
-    - **[Sam Office Hours:](https://unc.zoom.us/j/5891075192)** W 3:00 PM to 5:00 PM
+    - **[Lectures:](https://unc.zoom.us/j/94535557682?pwd=YWEwYzVWN0VSNHB1QnZHUTR1T2pkZz09)** TTH 2:00 PM to 3:15 PM
+    - **[320.400 by Taylor](https://unc.zoom.us/j/91440986085?pwd=WUpKeW5hVG0rNGRXaXlZZStJL2xuUT09)**: W 5:45 PM to 6:35 PM
+    - **[320.401 by Pavlos](https://unc.zoom.us/j/93735742250)**: W 4:40 PM to 5:30 PM
+    - **[320.402 by Sam](https://unc.zoom.us/j/5891075192)**: F 4:40 PM to 5:30 PM
+    - **[Instructor Office Hours:](https://unc.zoom.us/j/94535557682?pwd=YWEwYzVWN0VSNHB1QnZHUTR1T2pkZz09)** MW 2:00 PM to 3:00 PM
+    - **[Taylor Office Hours:](https://unc.zoom.us/j/91440986085?pwd=WUpKeW5hVG0rNGRXaXlZZStJL2xuUT09)** M 10:00 AM to 11:00 AM and W 1:30 PM to 2:30 PM
+    - **[Pavlos Office Hours:](https://unc.zoom.us/j/2903979720)** M 10:00 AM to 11:00 AM and F 1:00 PM to 2:00 PM
+    - **[Sam Office Hours:](https://unc.zoom.us/j/5891075192)** TuTh 4:00 PM to 5:00 PM
 
 
 # **Course Material**
 
 | Date | Lecture | Slides | Tutorial|
 |------|---------|--------:|--------:|
-|Aug. 11| [Welcome](https://unc.zoom.us/rec/share/vOwsPvbg0FpIRIGK8GXhdaAFPabrX6a81nRK-6Zfyx7IuAwQJSU76FfP9kASP5aM?startTime=1597157341000) | [Slides](Lecture/Lecture01/Lecture01_1Welcome.pdf)|
-|| [Data Visualization](https://unc.zoom.us/rec/share/vOwsPvbg0FpIRIGK8GXhdaAFPabrX6a81nRK-6Zfyx7IuAwQJSU76FfP9kASP5aM?startTime=1597157341000) | [Slides](Lecture/Lecture01/Lecture01_2Data_Visualization_Lecture.pdf) | [Tutorial 01](Lecture/Lecture01/Tutorial01.html)([.Rmd](https://drive.google.com/file/d/1axwnhheH0IMH3xkE_GJWSREK7gdzMLvd/view?usp=sharing))|
+|Jan. 19| Welcome | [Slides](Lecture/Lecture01_1Welcome.pdf)|
+|       | Data Visualization | [Slides](Lecture/Lecture01_2Data_Visualization_Lecture.pdf) | [Tutorial 01](Tutorial/Tutorial01.rmd)|
 |Aug. 13| [RMarkdown](https://unc.zoom.us/rec/share/1dUkD5jxqEVIS9bE2kiFd4sgMtj1X6a81XIX_fQMxUnV6uAB5wSvVfCdhoXkPvhd?startTime=1597331470000) |[Slides](Lecture/Lecture02/Lecture 02 Workflow_Lecture.pdf)|[Tutorial 02](Lecture/Lecture02/Tutorial02.html)([.Rmd](https://drive.google.com/file/d/1v5IKozWUyv6Kyt5D5vyeG52i4Ig9gHZI/view?usp=sharing)) |
 |Aug. 18| [Data Transformation I](https://unc.zoom.us/rec/share/wJV5cZzr1mpIG6_m42LZWq8PM4jAT6a8hiUa8vQPz0-Nu_75jAp7MHyJWPxg5sQC?startTime=1597762020000) |[Slides](Lecture/Lecture03/Lecture 03 Data_Transformation.pdf)| [Tutorial 03](Lecture/Lecture03/Tutorial03.html)([.Rmd](https://drive.google.com/file/d/1zPZpvvshqarahO7qJNqTiX3SCXk-azK5/view?usp=sharing))|
 |Aug. 20| [Data Transformation II](https://unc.zoom.us/rec/share/zsYuLpPt5GxJZZGR2VDCA6MlR9_Leaa8gHUdqacLykwegZQmYj4nDH69BROcjAkY?startTime=1597936757000) |[Slides](Lecture/Lecture04/Lecture 04 Data_Transformation.pdf)| [Tutorial 04](Lecture/Lecture04/Tutorial04.html)([.Rmd](https://drive.google.com/file/d/1UEt-RVM4qAI889eXr_xphXL1M3wbQeqS/view?usp=sharing))|
