@@ -1,8 +1,9 @@
 ---
 title: "STOR 320 Tutorial on Data Transformation 1"
-author: ""
+author: ''
 date: "`r format(Sys.time(), '%B %d, %Y')`"
-output: html_document
+output:
+  pdf_document: default
 ---
 
 ```{r , include=FALSE}
