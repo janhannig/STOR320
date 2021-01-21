@@ -95,8 +95,8 @@ See the **[syllabus](https://hannig.cloudapps.unc.edu//STOR320/Syllabus.pdf)** f
 |------|---------|--------:|--------:|
 |Jan. 19| Welcome/Data Visualization | [Slides](Lecture/STOR320_01.pdf)| [Tutorial 01](Tutorial/Tutorial01.Rmd)|
 |Jan. 21| RMarkdown |[Slides](Lecture/STOR320_02.pdf) | [Tutorial 02](Tutorial/Tutorial02.Rmd) [ (Final Plot)](Tutorial/finalplot.png)|
-|Jan 26| Data Transformation I| | [Tutorial 03](Tutorial/Tutorial03.Rmd])|
-|Jan 28| Data Transformation II | | [Tutorial 04](Tutorial/Tutorial04.zip)|
+|Jan 26| Data Transformation I|[Slides](Lecture/STOR320_03.pdf) | [Tutorial 03](Tutorial/Tutorial03.Rmd])|
+|Jan 28| Data Transformation II |[Slides](Lecture/STOR320_04.pdf) | [Tutorial 04](Tutorial/Tutorial04.zip)|
 |Feb 2| Data Transformation III | | |
 |Feb 4| Final Project Instructions| | |
 |Feb 9| Data Import | | |
