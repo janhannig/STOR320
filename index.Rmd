@@ -131,7 +131,7 @@ All homework assignments are to be submitted via **[Gradescope](https://sakai.un
 
 | Date assigned | Instructions | Solutions| Due Date (Time) |
 |----------|:--------:|:-------------:|----------------:|
-| Jan 21  | [HW1](Homework/HW-1.Rmd) | | Jan 28 |
+| Jan 21  | [HW1](Homework/HW1.Rmd) | | Jan 28 |
 | Jan 28  | [HW2](Homework/HW-2.Rmd) | | Feb 4 |
 | Feb 4  | [A1](Homework/Analysis-1.zip) | | Feb 18 |
 | Feb 18  | [HW3](Homework/HW-3.Rmd) | |Feb 25 |

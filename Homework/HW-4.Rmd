@@ -1,10 +1,8 @@
 ---
-title: "Homework 1"
+title: "Homework 4"
 author: "FIRSTNAME LASTNAME"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
-output:
-  html_document: default
-  pdf_document: default
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -13,52 +11,39 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Instructions
 
-**Exercises:** 1-5 (3.2.4 Exercises); 1-2, 5 (3.3.1 Exercises); 1-5 (3.6.1 Exercises); Open Response
+**Exercises:**  2,3 (12.2.1 Exercises); 2,4 (12.3.3 Exercises); 1,2 (12.4.3 Exercises); 2 (12.5.1 Exercises); 2,3,4 (12.6.1 Exercises)
 
 **Submission:** Submit an electronic document on Gradescope. Must be submitted as a PDF file generated in RStudio. All assigned problems are chosen according to the textbook *R for Data Science*. You do not need R code to answer every question. If you answer without using R code, delete the code chunk. If the question requires R code, make sure you display R code. If the question requires a figure, make sure you display a figure. A lot of the questions can be answered in written response, but require R code and/or figures for understanding and explaining.
 
 ```{r, include=FALSE}
 library(tidyverse)
-library(ggplot2)
 ```
 
-# Chapter 3.2 (3.2.4 Exercises)
+# Chapter 12 (12.2.1 Exercises)
 
-##  Exercise 1
+##  Exercise 2
 ```{r}
 #
 ```
-
-
-## Exercise 2
-```{r}
-#
-```
-
 
 ##  Exercise 3
-```{r, eval=FALSE}
-?mpg
-```
-
 ```{r}
 #
 ```
 
+# Chapter 12 (12.3.3 Exercises)
 
-##  Excercise 4
+##  Exercise 2
 ```{r}
 #
 ```
 
-
-##  Excercise 5
+##  Exercise 4
 ```{r}
 #
 ```
 
-
-# Chapter 3 (3.3.1 Exercises)
+# Chapter 12 (12.4.3 Exercises)
 
 ##  Exercise 1
 ```{r}
@@ -70,17 +55,14 @@ library(ggplot2)
 #
 ```
 
-##  Exercise 5
+# Chapter 12 (12.5.1 Exercises)
+
+##  Exercise 2
 ```{r}
 #
 ```
 
-# Chapter 3.6 (3.6.1 Exercises)
-
-##  Exercise 1
-```{r}
-#
-```
+# Chapter 12 (12.6.1 Exercises)
 
 ##  Exercise 2
 ```{r}
@@ -96,21 +78,3 @@ library(ggplot2)
 ```{r}
 #
 ```
-
-##  Exercise 5
-
-
-```{r}
-#
-```
-Do they look different?
-
-
-# Open Response
-
-For this exercise, use the **diamonds** dataset in the tidyverse. Use `?diamonds` to get more information about the dataset.
-
-## Step 1: Select 1 numeric variable and 2 categorical variables. Create a graphic using `geom_boxplot()` and `facet_wrap` to illustrate the empirical distributions of the sample.
-
-
-## Step 2: Choose 2 numeric variables and 2 categorical variables and creatively illustrate the relationship between all the variables. 

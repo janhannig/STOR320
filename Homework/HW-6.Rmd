@@ -1,0 +1,104 @@
+---
+title: "Homework 6"
+author: "FIRSTNAME LASTNAME"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Instructions
+
+**Exercises:**  4 (20.4.6 Exercises); 1 (21.2.1 Exercises); 1 (21.5.3 Exercises); 1, 2 (23.2.1 Exercises)
+
+**Submission:** Submit an electronic document on Gradescope. Must be submitted as a PDF file generated in RStudio. All assigned problems are chosen according to the textbook *R for Data Science*. You do not need R code to answer every question. If you answer without using R code, delete the code chunk. If the question requires R code, make sure you display R code. If the question requires a figure, make sure you display a figure. A lot of the questions can be answered in written response, but require R code and/or figures for understanding and explaining.
+
+```{r, include=FALSE}
+library(tidyverse)
+```
+
+# Chapter 20 (20.4.6 Exercises)
+
+##  Exercise 4
+
+### a)
+```{r}
+#
+```
+
+### b)
+```{r}
+#
+```
+
+### c)
+```{r}
+#
+```
+
+### d)
+```{r}
+#
+```
+
+# Chapter 21 (21.2.1 Exercises)
+
+##  Exercise 1
+
+### 1)
+```{r}
+#
+```
+
+### 2)
+```{r}
+#
+```
+
+### 3)
+```{r}
+#
+```
+
+### 4)
+```{r}
+#
+```
+
+# Chapter 21 (21.5.3 Exercises)
+
+##  Exercise 1
+
+### 1)
+```{r}
+#
+```
+
+### 2)
+```{r}
+#
+```
+
+### 3)
+```{r}
+#
+```
+
+### 4)
+```{r}
+#
+```
+
+# Chapter 23 (23.2.1 Exercises)
+
+##  Exercise 1
+```{r}
+#
+```
+
+##  Exercise 2
+```{r}
+#
+```
