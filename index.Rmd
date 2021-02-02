@@ -98,7 +98,7 @@ See the **[syllabus](https://hannig.cloudapps.unc.edu//STOR320/Syllabus.pdf)** f
 |Jan 26| Data Transformation I|[Slides](Lecture/STOR320_03.pdf) | [Tutorial 03](Tutorial/Tutorial03.Rmd)|
 |Jan 28| Data Transformation II |[Slides](Lecture/STOR320_04.pdf) | |
 |Feb 2| Data Transformation III | [Slides](Lecture/STOR320_05.pdf)| [Tutorial 04](Tutorial/Tutorial04.zip)|
-|Feb 4| Final Project Instructions| | |
+|Feb 4| Final Project Instructions|[Slides](Lecture/STOR320_06.pdf) | |
 |Feb 9| Data Import | | |
 |Feb 11| Exploratory Data Analysis | | |
 |Feb 16| Wellness Day | | |
