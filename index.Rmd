@@ -95,9 +95,9 @@ See the **[syllabus](https://hannig.cloudapps.unc.edu//STOR320/Syllabus.pdf)** f
 |------|---------|--------:|--------:|
 |Jan. 19| Welcome/Data Visualization | [Slides](Lecture/STOR320_01.pdf)| [Tutorial 01](Tutorial/Tutorial01.Rmd)|
 |Jan. 21| RMarkdown |[Slides](Lecture/STOR320_02.pdf) | [Tutorial 02](Tutorial/Tutorial02.Rmd) [ (Final Plot)](Tutorial/finalplot.png) [ {Solution}](Tutorial/Tutorial02_sol.Rmd)|
-|Jan 26| Data Transformation I|[Slides](Lecture/STOR320_03.pdf) | [Tutorial 03](Tutorial/Tutorial03.Rmd)|
+|Jan 26| Data Transformation I|[Slides](Lecture/STOR320_03.pdf) | [Tutorial 03](Tutorial/Tutorial03.Rmd) [ {Solution}](Tutorial/Tutorial03_sol.Rmd)|
 |Jan 28| Data Transformation II |[Slides](Lecture/STOR320_04.pdf) | |
-|Feb 2| Data Transformation III | [Slides](Lecture/STOR320_05.pdf)| [Tutorial 04](Tutorial/Tutorial04.zip)|
+|Feb 2| Data Transformation III | [Slides](Lecture/STOR320_05.pdf)| [Tutorial 04](Tutorial/Tutorial04.zip) [ {Solution}](Tutorial/Tutorial04_sol.Rmd)|
 |Feb 4| Final Project Instructions|[Slides](Lecture/STOR320_06.pdf) | |
 |Feb 9| Data Import |[Slides](Lecture/STOR320_07.pdf) | |
 |Feb 11| Exploratory Data Analysis |[Slides](Lecture/STOR320_08.pdf) | |
