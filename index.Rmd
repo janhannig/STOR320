@@ -168,7 +168,7 @@ Although everyone is responsible for the entire project, each member of the grou
 This final project will be divided into four parts worth a total of 100 points. Each part will have a clear rubric as non-subjective as possible. The parts along with total point values are found below:
 
 * **[P1: Project Proposal](FinalProject/Project-Proposal.html)** *(10 Points)*
-    + [Template](FinalProject/Project-Proposal-Template.Rmd)
+    + [Template](FinalProject/Project_Proposal_Template.Rmd)
     + [Data World](https://data.world/datasets/download)
     + [US Government Data](https://www.data.gov/)
     + [Kaggle](https://www.kaggle.com/)
@@ -177,10 +177,10 @@ This final project will be divided into four parts worth a total of 100 points. 
 
 
 * **[P2: Exploratory Data Analysis](FinalProject/Exploratory-Data-Analysis.html)** *(20 Points)*
-    + [Template](FinalProject/EDA-Template.Rmd)
+    + [Template](FinalProject/EDA_Template.Rmd)
     
 * **[P3: Final Written Paper](FinalProject/Final-Paper.html)** *(40 Points)*
-    + [Template](FinalProject/Final-Paper-Template.Rmd)
+    + [Template](FinalProject/Final_Paper_Template.Rmd)
     + [Group Scoring]()
     
 * **[P4: Final Presentation](FinalProject/Final-Presentation.html)** *(30 Points)*
