@@ -102,11 +102,11 @@ See the **[syllabus](https://hannig.cloudapps.unc.edu//STOR320/Syllabus.pdf)** f
 |Feb 9| Data Import |[Slides](Lecture/STOR320_07.pdf) | |
 |Feb 11| Exploratory Data Analysis |[Slides](Lecture/STOR320_08.pdf) | |
 |Feb 16| Wellness Day | | |
-|Feb 18| Project Proposal Discussion | | |
-|Feb 23| Tidy Data |[Slides](Lecture/STOR320_09.pdf) | [Tutorial 05](Tutorial/Tutorial05.Rmd) |
-|Feb 25| Tidy Data/Web Scraping |[Slides](Lecture/STOR320_10.pdf) | [Tutorial 06](Tutorial/Tutorial06.Rmd) |
-|Mar 2| Web Scraping | | [Tutorial 07](Tutorial/Tutorial07.Rmd) |
-|Mar 4| Joins |[Slides](Lecture/STOR320_11.pdf)  | |
+|Feb 18| CLASS CANCELLED - ice storm | | |
+|Feb 23| Project Proposal Discussion | | |
+|Feb 25| Tidy Data |[Slides](Lecture/STOR320_09.pdf) | [Tutorial 05](Tutorial/Tutorial05.Rmd) |
+|Mar 2| Web Scraping |[Slides](Lecture/STOR320_10.pdf) | [Tutorial 06](Tutorial/Tutorial06.Rmd) |
+|Mar 4| Joins |[Slides](Lecture/STOR320_11.pdf)  | [Tutorial 07](Tutorial/Tutorial07.Rmd) |
 |Mar 9| Wellness Day | | |
 |Mar 11| Factors | | |
 |Mar 16| Programming I | |[Tutorial 08](Tutorial/Tutorial08.Rmd) |
@@ -133,7 +133,7 @@ All homework assignments are to be submitted via **[Gradescope](https://sakai.un
 |----------|:--------:|:-------------:|----------------:|
 | Jan 21  | [HW1](Homework/HW1.Rmd) | | Jan 28 |
 | Jan 28  | [HW2](Homework/HW-2.Rmd) | | Feb 4 |
-| Feb 4  | [A1](Homework/Analysis-1.zip) | | Feb 18 |
+| Feb 4  | [A1](Homework/Analysis-1.zip) | | **Feb 21** |
 | Feb 18  | [HW3](Homework/HW-3.Rmd) | |Feb 25 |
 | Feb 25  | [HW4](Homework/HW-4.Rmd) | | Mar 4 |
 | Mar 4  | [A2](Homework/Analysis_2.zip) | | Mar 18 |
@@ -190,8 +190,8 @@ This final project will be divided into four parts worth a total of 100 points. 
 
 | Part | Description |Method of Submission| Due Date (Time) |
 |------|-------------|-------------------|----------------:|
-| P1  | Project Proposal | Gradescope | Feb 18|
-|   | Proposal Meeting | In class | Feb 18|
+| P1  | Project Proposal | Gradescope | **Feb 21**|
+|   | Proposal Meeting | In class | **Feb 23**|
 | P2  | Exploratory Data Analysis | Gradescope | Mar 26|
 |   | EDA Meeting | In Lab | Week of March 30 |
 | P3  | Final Report|Gradescope| May 5|
