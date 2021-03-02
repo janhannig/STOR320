@@ -112,8 +112,8 @@ See the **[syllabus](https://hannig.cloudapps.unc.edu//STOR320/Syllabus.pdf)** f
 |Mar 16| Programming I | |[Tutorial 08](Tutorial/Tutorial08.Rmd) |
 |Mar 18| Programming II| |[Tutorial 09](Tutorial/Tutorial09.Rmd) |
 |Mar 23| Programming III | | |
-|Mar 25| Group Work Day || |
-|Mar 30| Modeling I | | |
+|Mar 25| Modeling I | | |
+|Mar 30| Group Work Day || |
 |Apr 1| Modeling II | |[Tutorial 10](Tutorial/Tutorial10.zip)  |
 |Apr 6| Modeling III | |[Tutorial 11](Tutorial/Tutorial11.zip) |
 |Apr 8| Modeling IV | | |
@@ -136,7 +136,7 @@ All homework assignments are to be submitted via **[Gradescope](https://sakai.un
 | Feb 4  | [A1](Homework/Analysis-1.zip) | | **Feb 21** |
 | Feb 18  | [HW3](Homework/HW-3.Rmd) | |Feb 25 |
 | Feb 25  | [HW4](Homework/HW-4.Rmd) | | Mar 4 |
-| Mar 4  | [A2](Homework/Analysis_2.zip) | | Mar 18 |
+| Mar 4  | [A2](Homework/Analysis-2.zip) | | Mar 18 |
 | Mar 18  | [HW5](Homework/HW-5.Rmd) | | Mar 25 |
 | Mar 25 | [A3](Homework/Analysis-3.zip)| | Apr 8 |
 | Apr 9  | [HW6](Homework/HW-6.Rmd) | | Apr 15 |
@@ -193,7 +193,7 @@ This final project will be divided into four parts worth a total of 100 points. 
 | P1  | Project Proposal | Gradescope | **Feb 21**|
 |   | Proposal Meeting | In class | **Feb 23**|
 | P2  | Exploratory Data Analysis | Gradescope | Mar 26|
-|   | EDA Meeting | In Lab | Week of March 30 |
+|   | EDA Meeting | In Lab | April 6-9|
 | P3  | Final Report|Gradescope| May 5|
 | P4  | Presentation Slides |Sakai| April 28|
 |   | Final Presentation|In Class| April 29 and May 4|
