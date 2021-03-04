@@ -107,7 +107,7 @@ See the **[syllabus](https://hannig.cloudapps.unc.edu//STOR320/Syllabus.pdf)** f
 |Feb 25| Tidy Data |[Slides](Lecture/STOR320_09.pdf) | [Tutorial 05](Tutorial/Tutorial05.Rmd) |
 |Mar 2| Web Scraping |[Slides](Lecture/STOR320_10.pdf) | [Tutorial 06](Tutorial/Tutorial06.Rmd) |
 |Mar 4| Joins |[Slides](Lecture/STOR320_11.pdf)  | [Tutorial 07](Tutorial/Tutorial07.Rmd) |
-|Mar 9| Factors |[Slides](Lecture/STOR320_11.pdf) | |
+|Mar 9| Factors |[Slides](Lecture/STOR320_12.pdf) | |
 |Mar 11| Wellness Day | | |
 |Mar 16| Programming I | |[Tutorial 08](Tutorial/Tutorial08.Rmd) |
 |Mar 18| Programming II| |[Tutorial 09](Tutorial/Tutorial09.Rmd) |
