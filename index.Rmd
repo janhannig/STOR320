@@ -112,10 +112,10 @@ See the **[syllabus](https://hannig.cloudapps.unc.edu//STOR320/Syllabus.pdf)** f
 |Mar 16| Programming I |[Slides](Lecture/STOR320_13.pdf) |[Tutorial 08](Tutorial/Tutorial08.Rmd) |
 |Mar 18| Programming II|[Slides](Lecture/STOR320_14.pdf) |[Tutorial 09](Tutorial/Tutorial09.Rmd) |
 |Mar 23| Programming III |[Slides](Lecture/STOR320_15.pdf) | |
-|Mar 25| Modeling I | | |
+|Mar 25| Modeling I |[Slides](Lecture/STOR320_16.pdf) | |
 |Mar 30| Group Work Day || |
-|Apr 1| Modeling II | |[Tutorial 10](Tutorial/Tutorial10.zip)  |
-|Apr 6| Modeling III | |[Tutorial 11](Tutorial/Tutorial11.zip) |
+|Apr 1| Modeling II |[Slides](Lecture/STOR320_17.pdf) |[Tutorial 10](Tutorial/Tutorial10.zip)  |
+|Apr 6| Modeling III |[Slides](Lecture/STOR320_18.pdf) |[Tutorial 11](Tutorial/Tutorial11.zip) |
 |Apr 8| Modeling IV | | |
 |Apr 13| Modeling V | | |
 |Apr 15| Modeling VI | | [Tutorial 12](Tutorial/Tutorial12.Rmd) |
