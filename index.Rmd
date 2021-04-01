@@ -116,10 +116,10 @@ See the **[syllabus](https://hannig.cloudapps.unc.edu//STOR320/Syllabus.pdf)** f
 |Mar 30| Group Work Day || |
 |Apr 1| Modeling II |[Slides](Lecture/STOR320_17.pdf) |[Tutorial 10](Tutorial/Tutorial10.zip)  |
 |Apr 6| Modeling III |[Slides](Lecture/STOR320_18.pdf) |[Tutorial 11](Tutorial/Tutorial11.zip) |
-|Apr 8| Modeling IV | | |
-|Apr 13| Modeling V | | |
-|Apr 15| Modeling VI | | [Tutorial 12](Tutorial/Tutorial12.Rmd) |
-|Apr 20| Modeling VII | |[Tutorial 13](Tutorial/Tutorial13.Rmd) |
+|Apr 8| Modeling IV |[Slides](Lecture/STOR320_19.pdf)  | |
+|Apr 13| Modeling V |[Slides](Lecture/STOR320_20.pdf)  | |
+|Apr 15| Modeling VI |[Slides](Lecture/STOR320_21.pdf)  | [Tutorial 12](Tutorial/Tutorial12.Rmd) |
+|Apr 20| Modeling VII |[Slides](Lecture/STOR320_22.pdf)  |[Tutorial 13](Tutorial/Tutorial13.Rmd) |
 |Apr 22| R Shiny| | [Tutorial 14](Tutorial/Tutorial14.zip)|
 |Apr 27| Data Ethics | | |
 |Apr 29| Presentation| | |
