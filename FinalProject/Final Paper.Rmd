@@ -42,19 +42,19 @@ Five points of the final project is based on an average score measuring overall 
 |Introduction: Am I Interested?|2 Points|
 |Introduction: Free of Spelling and Grammatical Errors|1 Point|
 |Data: Adequately Describes Data|2 Points|
-|Data: 1 Descriptive Table| 2 Points|
-|Data: 1 Descriptive Figure| 2 Points|
+|Data: 1 Descriptive Table| 1 Points|
+|Data: 1 Descriptive Figure| 1 Points|
 |Data: Free of Spelling and Grammatical Errors|1 Point|
 |Results: Appropriate Methods Using Multiple Models|3 Points|
-|Results: Adequately Explains Results| 3 Points|
+|Results: Adequately Explains Results| 2 Points|
 |Results: 4 Figures and/or Tables| 8 Points|
-|Results: Free of Spelling and Grammatical Errors|2 Points|
-|Conclusion: Summarize Questions with Results |2 Points|
+|Results: Free of Spelling and Grammatical Errors|1 Points|
+|Conclusion: Summarize Questions with Results |1 Points|
 |Conclusion: Do I Want to Learn More? |2 Points|
 |Conclusion: Free of Spelling and Grammatical Errors|1 Point|
 |Overall: No R Code|1 Point|
 |Overall: Followed RMarkdown Template|1 Point|
-|Individual Score|5 Points|
+|Individual Score (reported separately in Sakai)|10 Points|
 |**Total**|**40 Points**|
 |||
 
