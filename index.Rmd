@@ -195,7 +195,7 @@ This final project will be divided into four parts worth a total of 100 points. 
 | P2  | Exploratory Data Analysis | Gradescope | April 6|
 |   | EDA Meeting | In Lab | April 6-9|
 | P3  | Final Report|Gradescope| May 5|
-| P4  | Presentation Slides |Sakai| April 28|
+| P4  | Presentation Slides |Gradescope| April 28|
 |   | Final Presentation|In Class| April 29 and May 4|
 
 ## Above Average Final Projects from Previous Courses
