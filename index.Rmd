@@ -149,7 +149,7 @@ For the final project, each section of STOR 320 will be divided (ideally) into r
 
 ## Research Group Assignments
 
-To find your research group, see file `group.xlsx` in the **Resources** tab on **Sakai**.
+To find your research group and your group's in class presentation times, see file `group.xlsx` in the **Resources** tab on **Sakai**.
 
 ## Four Roles
 
