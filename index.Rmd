@@ -121,7 +121,7 @@ See the **[syllabus](https://hannig.cloudapps.unc.edu//STOR320/Syllabus.pdf)** f
 |Apr 15| Modeling VI |[Slides](Lecture/STOR320_21.pdf)  | [Tutorial 12](Tutorial/Tutorial12.Rmd) |
 |Apr 20| Modeling VII |[Slides](Lecture/STOR320_22.pdf)  |[Tutorial 13](Tutorial/Tutorial13.Rmd) |
 |Apr 22| R Shiny|[Slides](Lecture/STOR320_23.pdf) | [Tutorial 14](Tutorial/Tutorial14.zip)|
-|Apr 27| Data Ethics |[Slides](Lecture/STOR320_24.pdf) | |
+|Apr 27| Data Ethics |[Slides](Lecture/STOR320_24.pptx) | |
 |Apr 29| Presentation| | |
 |May 4| Presentation|| | |
 
